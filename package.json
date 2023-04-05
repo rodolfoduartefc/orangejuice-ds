@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "orangejuice-ds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OrangeJuice - DS",
   "scripts": {
     "build": "rollup -c"
