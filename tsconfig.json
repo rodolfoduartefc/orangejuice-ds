@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "react", // Transforma JSX em código React
+    "module": "ESNext", // Gera módulos JS modernos para nossa biblioteca
+    "declaration": true, // Gera um arquivo .d.ts para os types da biblioteca
+    "declarationDir": "types", // Onde vai ficar os arquivos .d.ts
+    "sourceMap": true, // Mapeando o código JS de volta às origens do arquivo TS para depuração
+    "outDir": "dist", // Diretório onde o projeto será gerado
+    "moduleResolution": "node", // Siga as regras do node.js para encontrar módulos
+    "allowSyntheticDefaultImports": true, // Assume exportações padrão se nenhuma for criada manualmente
+    "emitDeclarationOnly": true // Não gera JS (o Rollup fará isso) apenas exporta declarações de tipo
+  }
+}
